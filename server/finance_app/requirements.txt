@@ -1,0 +1,29 @@
+# FastAPI & ASGI Server
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+gunicorn==21.2.0  # Production WSGI Server
+
+# Database & ORM
+SQLAlchemy==2.0.29
+alembic==1.13.1  # Database Migrations
+psycopg2-binary==2.9.9  # PostgreSQL Adapter
+
+# Pydantic for Data Validation
+pydantic==2.7.0
+
+# Authentication & Security
+passlib[bcrypt]==1.7.4  # Password Hashing
+pyjwt==2.8.0  # JWT Authentication
+python-dotenv==1.0.1  # Environment Variables
+
+# Banking API (Plaid)
+requests==2.31.0
+
+# Redis for Caching
+redis==5.0.3  # Redis Client
+
+# API Rate Limiting
+slowapi==0.1.8
+
+# Logging & Monitoring
+loguru==0.7.2
