@@ -1,0 +1,105 @@
+/* ============================= */
+/* 🌎 Global Styles for Finance App */
+/* ============================= */
+
+:root {
+    --primary-color: #0070f3;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --white: #ffffff;
+    --dark: #1a1a1a;
+    --border-radius: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* 🌙 Dark Mode */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ✅ Global Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ✅ Buttons */
+button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 10px 15px;
+    border-radius: var(--border-radius);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* ✅ Links */
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ✅ Navigation Bar */
+.navbar {
+    background-color: var(--dark);
+    color: var(--white);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: var(--border-radius);
+}
+
+/* ✅ Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: var(--dark);
+    color: var(--white);
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: var(--white);
+    padding: 10px 0;
+}
+
+.sidebar a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+/* ✅ Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--dark);
+    color: var(--white);
+    border-radius: var(--border-radius);
+}
